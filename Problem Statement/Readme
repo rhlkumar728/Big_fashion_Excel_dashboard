@@ -1,1 +1,11 @@
-
+1. Data is given in csv format, don't change it to xlsx directly.
+2. Open new xlsx file and import csv file using power query
+3. Map chart option is not available for versions prior 2016, so don't worry if you couldn't find it
+4. Map chart is only available for normal tables, so copy the data from pivot table and make
+separate table to make map chart
+5. Make different pivot tables in different sheets as included in snaps
+6. Don't put different pivot tables in the same sheet. And follow a good naming convention
+otherwise things will easily get clumpsy.
+7. After making all pivot tables and charts in different tables, then cut and paste the pivot charts
+to the dashboard from their respective sheets
+8. Slicers should be connected to all concerned pivot charts accordingly
